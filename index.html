@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Razane cv</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    
+</head>
+<body onLoad="alert('Bienvenue à mon site');"
+      onUnload="alert('Merci à votre visite')">
+	<header>
+        <div id="bloc page">
+           
+        <img  id="logo"src="img/RAZ%20logo%20(1).jpg">
+   
+   
+      
+<h1><b>
+<font>
+<script>
+var text="RAZANE" 
+var speed=100
+if (document.all||document.getElementById){
+document.write('<span id="highlight">' + text + '</span>')
+var storetext=document.getElementById? document.getElementById("highlight") : document.all.highlight
+}
+else
+document.write(text)
+var hex=new Array("00","14","28","3C","50","64","78","8C","A0","B4","C8","DC","F0")
+var r=1
+var g=1
+var b=1
+var y=1
+var seq=1
+function changetext(){
+rainbow="#"+hex[r]+hex[g]+hex[y]
+storetext.style.color=rainbow
+}
+function change(){
+if (seq==6){
+b--
+if (b==0)
+seq=1
+}
+if (seq==5){
+r++
+if (r==12)
+seq=6
+}
+if (seq==4){
+g--
+if (g==0)
+seq=5
+}
+if (seq==3){
+b++
+if (b==12)
+seq=4
+}
+if (seq==2){
+r--
+if (r==0)
+seq=3
+}
+if (seq==1){
+g++
+if (g==12)
+seq=2
+}
+changetext()
+}
+function starteffect(){
+if (document.all||document.getElementById)
+flash=setInterval("change()",speed)
+}
+starteffect()
+</script>
+</font></b></h1>
+                       
+            </div> 
+             <nav>
+			<div id="navigateur">
+				<ul>
+                    <li><a href="#presentation"> ACCUEIL</a></li>
+					<li><a href="#exp"> EXPERIENCES</a></li>
+					<li><a href="#formation"> FORMATION</a></li>
+					<li><a href="#lois"> LOISIRS</a></li>
+                    <li><a href="#mes photos">PHOTOS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+
+                    
+				</ul>
+                <img id="img"src="img/ph.jpg">
+                
+                <form>
+        <div id="inputbox">
+            <h2>LOGIN</h2>
+            <input type="name" required="">
+            <label>Username</label>
+            <input type="password" required="">
+            <label> Password</label>
+            <button type="button" onclick="change_txt_function()">Click</button>
+            </div></form>
+
+			</div>
+                
+		</nav>
+		
+        
+	</header>
+    <article id="contente">
+    <section id="main post">
+        <div id="presentation">
+        <h3>Qui suis-je?</h3>
+            <img id="profil1" src="img/default-avatar-profile-icon-vector-18942370.jpg">
+        <p id="paragraphe1">     Je suis Razane Razane, j'ai 20ans,et je vis à Batna,Algérie.<br/>
+                         Je suis étudiante universitaire dans une grande université de Batna Mostefa BenBoulaid.<br/>
+                          Curieuse, autodidacte et rigoureuse je dispose également d'un bagage en informatique.</p>
+        </div>
+        <div id="exp">
+        <h4> Parcours et Expériences</h4>
+        <img id="profil2" src="img/21.jpg"> 
+            <p id="paragraphe2">2019:  Stage de 2 mois dans un établisement <br/>educatif<br/>
+            2019:  Stage de 3 mois dans une agence de<br/> voyage<br/> 
+             2020: Stage de 2 mois en programmation</p>
+        </div>
+    </section>
+        <section>
+            <div id="formation">
+        <h5>Mes formations</h5>
+        <img id="profil3"src="img/form.jpg">  
+                <p id="paragraphe3"> 2017/2018: Baccalauréat en Scientifique<br/>
+                 2019/2020: Licence en systèmes informatiques<br/>
+                2018: Diplome de la langue française<br/>
+                 2019: Diplome de la langue anglaise</p>
+            </div>
+        <div id="lois"> 
+            <h6>Mes Loisirs</h6>
+            <img id="profil4" src="img/loi.jpg">
+            <p id="paragraphe4"> *Dessin<br/>
+                        *Photographie<br/>
+                        *Lire des livres scientifiques<br/>
+                        *Tourisme</p>
+            </div></section>
+        
+<div id="sidebar">
+    <img id="profil5" src="img/etudiant.png">
+    <h7>A propos de moi!</h7>
+    <p id="paragraphe5"> Etant donné que j'aime bien faire découvrir petit à petit ma personnalité aux personne en face de moi, j'en dis peu pour le moment.</p>
+            <div id="contact">
+            <h8>contact moi!</h8></div>
+                <div id="tweet">
+                    <a href="https://twitter.com/login?lang=fr"><img id="twitter" src="img/twitter.png"></a>
+                    <a href="https://fr-fr.facebook.com/"><img id="facebook"src="img/facebook.png"></a>
+                    <a href="https://www.instagram.com/?hl=fr"><img  src="img/instagram.jpg"></a>
+                    <a href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><img src="img/gmail.png"></a>
+                    <a href="https://www.whatsapp.com/?lang=fr"><img id="app" src="img/app.png"></a></div>
+        </div>
+    </article>
+    <footer>
+        <div id="mes photos">
+            <h9> Mes Photos</h9>
+            <center>
+<div class="textwidget"><marquee direction="right" width="800" onmouseover="this.stop()" scrollamount="5" onmouseout="this.start()" height="250" align="left"><br /><img border="0"  width="220" src="img/photo1.jpg" height="250" />
+<img  border="0" width="220" src="img/photo2.jpg" height="250"/>
+<img   border="0" width="220" src="img/photo3.jpg" height="250" />
+<img  border="0"  width="220" src="img/photo4.jpg"height="250" />
+<img border="0"  width="220" src="img/def.jpg"height="250" />
+<img border="0"  width="220" src="img/image%201.gif"height="250" />
+<img border="0"  width="220" src="img/imag%202.JPG"height="250" />
+</marquee></div></center>
+    
+    </div>
+        
+
+    </footer>
+
+</body>
+</html>

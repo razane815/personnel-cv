@@ -1,0 +1,241 @@
+body{
+    background-color: beige;
+    margin: 0 auto;
+    padding: 0;
+ 
+} 
+header{
+    width: 100%;
+    height: 250px;
+}
+#logo{
+    border-radius: 50px 50px 50px 50px;
+    margin: 2% 0 0 2%;
+}
+h1{
+    margin: -10% 5% 5% 5%;
+    text-align: center;
+    font-family: Lucida Calligraphy,serif;
+    font-size: 100px;
+}
+#navigateur{
+    width: 80%;
+    height: 80vh;
+    background-color:firebrick;
+    margin: -2% auto;
+}
+ul{
+    text-align: center;
+    width: 80%;
+    height: 50px;
+    background-color:darkgreen;
+    margin: 2% auto;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 0 0 0;
+    background-color:firebrick;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#img{
+    margin: -2% auto;
+}
+h2{ text-decoration: underline;
+    margin: 0% 2% 2% 2%;
+    font-size: 22px;
+    text-align: left;
+    padding: 3px;
+    font-family: times new roman,serif;
+}
+
+#inputbox{
+    padding: 0px;
+    border: none;
+    font-size: 22px;
+    font-family: sans-serif;
+    margin: 5% 5% 0% 8%;
+}
+.button{
+    float: left;
+    background: cursive;
+    color: white;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    position:relative;
+    padding: 5px;
+    font-family: sans-serif;
+    border: none;
+    font-size: 10px;
+}
+#contente{
+    width: 60%;
+    height: 260vh;
+    background-color: dimgray;
+    margin: 45% 0 0 8%;
+}
+
+#presentation{
+    width: 70%;
+    height: 60vh;
+    background-color:crimson;
+    margin: 5% auto;
+    padding: 10px;
+}
+#presentation{
+    border-radius: 270px 270px 270px 270px;
+}
+
+h3{
+    text-decoration: underline;
+    margin: 0% 0 0 4%;
+    font-size: 50px;
+    text-align: center
+}
+#profil1{
+    border-radius: 150px 150px 150px 150px;
+    margin: 1% 0 0 40%;
+}
+#paragraphe1{
+    font-size: 20px;
+    margin: 0 0 0 5%;
+}
+
+#exp{
+    width: 70%;
+    height: 60vh;
+    background-color: chartreuse;
+    margin: -2% auto;
+    
+}
+#exp{
+    border-radius:  270px 270px 270px 270px;
+}
+h4{
+    text-decoration: underline;
+    margin: 5% 0 0 0%;
+    font-size: 30px;
+    text-align: center;}
+#paragraphe2{
+    font-size: 20px;
+    margin: -15% 0 0 5%;
+}
+#profil2{
+    border-radius: 150px 150px 150px 150px;
+    margin: 1% 0 0 68%;
+}
+#formation{
+     width: 70%;
+    height: 60vh;
+    background-color: gold;
+    margin: -5% auto;
+}
+#formation{
+    border-radius:  270px 270px 270px 270px;
+}
+h5{
+    text-decoration: underline;
+    margin: 10% 0 0 3%;
+    font-size: 40px;
+    text-align: center
+    
+}
+#paragraphe3{
+    font-size: 20px;
+    margin: -20% 0 0 5%;
+}
+#profil3{
+    border-radius: 150px 150px 150px 150px;
+    margin: 1% 0 0 70%;
+}
+
+#lois { width: 70%;
+    height: 60vh;
+    background-color:darksalmon;
+    margin: -5% auto;  
+}
+#lois{
+    border-radius:  270px 270px 270px 270px;
+}
+h6{
+    text-decoration: underline;
+    margin: 10% 0 0 3%;
+    font-size: 45px;
+    text-align: center
+    
+}
+
+#profil4{
+    border-radius: 150px 150px 150px 150px;
+    margin: 1% 0 0 70%;
+}
+#paragraphe4{
+    font-size: 20px;
+    margin: -20% 0 0 10%;
+}
+#sidebar{
+    width: 350px;
+    height: 700px;
+    margin: -150% 10% 10% 105%;
+    background-color:darkslategrey;
+}
+#profil5{
+    margin: 10% 5% 5% 13%;
+}
+h7{
+    text-decoration:none;
+    margin: 5% 0 0 25%;
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+    
+}
+#paragraphe5{
+    font-size: 18px;
+    margin: 12% 0 0 5%;
+    color: white;
+}
+
+
+#contact{
+    margin: 50% 2% 2% 2%;
+}
+
+h8{
+    text-decoration: none;
+    margin: -20% 0 0 10%;
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+}
+#tweet{
+    margin: 0% 10% 10% 10%;
+}
+footer{
+    width: 80%;
+    height: 350px;
+    background-color: coral;
+    margin: 2% auto 80%;
+}
+
+h9{
+    text-decoration: underline;
+    margin: 10% 0 0 10%;
+    padding: 10px;
+    font-size: 35px;
+}
+#photos{
+    
+     margin: 2% 2% 2% 2%;
+    
+    
+}
+    
+
+
+
+
